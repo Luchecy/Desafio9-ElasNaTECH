@@ -54,7 +54,7 @@ p{
     box-sizing: border-box;
     width: fit-content;
     height: 300px;
-    margin-bottom: 200px;
+    margin-bottom: 170px;
 } 
 
 .card p{
@@ -80,6 +80,14 @@ footer{
     margin: 0;
     text-align: center;
     padding: 20px;
+}
+
+footer a{
+    color: var(--fourth-color);
+}
+
+footer a:hover{
+    color: var(--main-color);
 }
 
 @media (max-width: 800px){
